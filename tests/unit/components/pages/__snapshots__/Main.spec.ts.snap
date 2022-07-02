@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on pages/Main.vue renders correctly with one task in store 1`] = `
+<section
+  class="main"
+  id="main"
+>
+  <ul
+    class="todo-list"
+  >
+    
+    <li
+      class=""
+    >
+      <div
+        class="view"
+      >
+        <input
+          class="toggle"
+          type="checkbox"
+        />
+        <label>
+          New task
+        </label>
+        <button
+          class="destroy"
+        />
+      </div>
+      <input
+        class="edit"
+      />
+    </li>
+    
+  </ul>
+</section>
+`;

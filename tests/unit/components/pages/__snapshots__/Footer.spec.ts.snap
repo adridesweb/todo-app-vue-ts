@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on pages/Footer.vue renders correctly with one task in store 1`] = `
+<footer
+  class="footer"
+  id="footer"
+>
+  <div
+    class="todo-count"
+  >
+    <strong>
+      1
+    </strong>
+     item left 
+  </div>
+  <ul
+    class="filters"
+  >
+    <li>
+      <router-link-stub
+        to="/"
+      />
+    </li>
+    <li>
+      <router-link-stub
+        to="active"
+      />
+    </li>
+    <li>
+      <router-link-stub
+        to="completed"
+      />
+    </li>
+  </ul>
+  <!--v-if-->
+</footer>
+`;
